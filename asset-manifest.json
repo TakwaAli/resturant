@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/TakwaAli/resturant/static/css/main.7644e92e.css",
-    "main.js": "/TakwaAli/resturant/static/js/main.884a3b79.js",
-    "static/js/787.8bae8e75.chunk.js": "/TakwaAli/resturant/static/js/787.8bae8e75.chunk.js",
-    "static/media/pizza.jpg": "/TakwaAli/resturant/static/media/pizza.3557979dca4bef982d8e.jpg",
-    "static/media/fa-solid-900.ttf": "/TakwaAli/resturant/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
-    "static/media/beef.jpg": "/TakwaAli/resturant/static/media/beef.a469476e655cb3fc348a.jpg",
-    "static/media/fa-brands-400.ttf": "/TakwaAli/resturant/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
-    "static/media/fa-solid-900.woff2": "/TakwaAli/resturant/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
-    "static/media/fa-brands-400.woff2": "/TakwaAli/resturant/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
-    "static/media/salad.jpg": "/TakwaAli/resturant/static/media/salad.bc5eb469126356b6605b.jpg",
-    "static/media/fa-regular-400.ttf": "/TakwaAli/resturant/static/media/fa-regular-400.d87474231f4192884802.ttf",
-    "static/media/fa-regular-400.woff2": "/TakwaAli/resturant/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
-    "static/media/fa-v4compatibility.ttf": "/TakwaAli/resturant/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
-    "static/media/fa-v4compatibility.woff2": "/TakwaAli/resturant/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
-    "index.html": "/TakwaAli/resturant/index.html",
-    "main.7644e92e.css.map": "/TakwaAli/resturant/static/css/main.7644e92e.css.map",
-    "main.884a3b79.js.map": "/TakwaAli/resturant/static/js/main.884a3b79.js.map",
-    "787.8bae8e75.chunk.js.map": "/TakwaAli/resturant/static/js/787.8bae8e75.chunk.js.map"
+    "main.css": "/resturant/static/css/main.22d5b6a3.css",
+    "main.js": "/resturant/static/js/main.4ff8ddde.js",
+    "static/js/787.8bae8e75.chunk.js": "/resturant/static/js/787.8bae8e75.chunk.js",
+    "static/media/pizza.jpg": "/resturant/static/media/pizza.3557979dca4bef982d8e.jpg",
+    "static/media/fa-solid-900.ttf": "/resturant/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/beef.jpg": "/resturant/static/media/beef.a469476e655cb3fc348a.jpg",
+    "static/media/fa-brands-400.ttf": "/resturant/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/resturant/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/resturant/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/salad.jpg": "/resturant/static/media/salad.bc5eb469126356b6605b.jpg",
+    "static/media/fa-regular-400.ttf": "/resturant/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/resturant/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/resturant/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/resturant/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/resturant/index.html",
+    "main.22d5b6a3.css.map": "/resturant/static/css/main.22d5b6a3.css.map",
+    "main.4ff8ddde.js.map": "/resturant/static/js/main.4ff8ddde.js.map",
+    "787.8bae8e75.chunk.js.map": "/resturant/static/js/787.8bae8e75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7644e92e.css",
-    "static/js/main.884a3b79.js"
+    "static/css/main.22d5b6a3.css",
+    "static/js/main.4ff8ddde.js"
   ]
 }
