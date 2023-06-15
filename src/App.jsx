@@ -53,6 +53,7 @@ export default function App() {
       {path:"movies" , element:<ProtectedRoute> <Movies/></ProtectedRoute>},
       {path:"series" , element:<ProtectedRoute> <Series/></ProtectedRoute>} ,
       {path:"people" , element: <ProtectedRoute><People/></ProtectedRoute>},
+      {path:"resturant",element: <Login saveUserData={saveUserData} />},
       {path:"moviedetails/:id/:mediaType" , element: <ProtectedRoute><MovieDetails/></ProtectedRoute>},
       {path:"login" , element: <Login saveUserData={saveUserData} />},
       {path:"Popcornflix" , element: <Login saveUserData={saveUserData} />},
