@@ -61,20 +61,20 @@ async function sendLoginData(obj){
     <title>Login</title>
   </Helmet>
   
-  <div className='container w-50 mx-auto my-3'>
+  <div className='container w-100   mx-auto my-3'>
 
     <h2 className='mb-4 txt fw-bolder'>Login</h2>
 
-    <form onSubmit={formik.handleSubmit} >
+    <form className='m-5' onSubmit={formik.handleSubmit} >
       
       <label className='text-muted' htmlFor="email">Email Address</label>
-      <input type="email" id='email' className='form-control mb-4 mt-2 w-100' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='Email Address' name='email' value={formik.values.email}  />
-      {formik.errors.email && formik.touched.email ?<div className='alert alert-danger text-center'>{ formik.errors.email }</div>:"" }
+      <input type="email" id='email' className='form-control mb-4 mt-2 w-75' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='Email Address' name='email' value={formik.values.email}  />
+      {formik.errors.email && formik.touched.email ?<div className='alert alert-danger w-75 text-center'>{ formik.errors.email }</div>:"" }
 
       <label className='text-muted' htmlFor="password">Password</label>
       <div className="inputWithIcon position-relative">
-      <input type="password" id='password' className='form-control mb-4 mt-2 w-100' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='password' name='password' value={formik.values.password}  />
-      {formik.errors.password && formik.touched.password ?<div className='alert alert-danger text-center '>{ formik.errors.password }</div>:''}
+      <input type="password" id='password' className='form-control mb-4 mt-2 w-75' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='password' name='password' value={formik.values.password}  />
+      {formik.errors.password && formik.touched.password ?<div className='alert alert-danger w-75 text-center '>{ formik.errors.password }</div>:''}
       <i class="fa-solid fa-eye fs-5 position-absolute end-0 top-0 p-2 main-icon" onClick={showPassword} ></i>
       </div>
 

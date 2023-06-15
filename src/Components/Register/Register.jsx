@@ -71,35 +71,35 @@ async function sendRegisterData(obj){
     <title>Registration</title>
   </Helmet>
   
-  <div className='container w-50 mx-auto '>
+  <div className='container w-100 mx-auto '>
 
     <h2 className='mb-4 txt fw-bolder'>Registration </h2>
 
-    <form onSubmit={formik.handleSubmit} >
+    <form className='m-5' onSubmit={formik.handleSubmit} >
 
       <label className='text-muted' htmlFor="name">Name</label>
-      <input type="text" id='name' className='form-control mb-4 mt-2 w-100' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='Name' name='name' value={formik.values.name}  />
-      {formik.errors.name && formik.touched.name ? <div className='alert alert alert-danger text-center w-100 '>{ formik.errors.name }</div> :""}
+      <input type="text" id='name' className='form-control mb-4 mt-2 w-75' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='Name' name='name' value={formik.values.name}  />
+      {formik.errors.name && formik.touched.name ? <div className='alert alert alert-danger text-center w-75 '>{ formik.errors.name }</div> :""}
 
       <label className='text-muted' htmlFor="email">Email Address</label>
-      <input type="email" id='email' className='form-control mb-4 mt-2 w-100' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='Email Address' name='email' value={formik.values.email}  />
-      {formik.errors.email && formik.touched.email ?<div className='alert alert-danger text-center  w-100'>{ formik.errors.email }</div>:"" }
+      <input type="email" id='email' className='form-control mb-4 mt-2 w-75' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='Email Address' name='email' value={formik.values.email}  />
+      {formik.errors.email && formik.touched.email ?<div className='alert alert-danger text-center  w-75'>{ formik.errors.email }</div>:"" }
 
     <label className='text-muted' htmlFor="phone">Phone Number</label>
-      <input type="text" id='phone' className='form-control mb-4 mt-2 w-100' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='phone' name='phone' value={formik.values.phone}  />
-      {formik.errors.phone && formik.touched.phone ?<div className='alert alert-danger text-center  w-100'>{ formik.errors.phone }</div>:''}
+      <input type="text" id='phone' className='form-control mb-4 mt-2 w-75' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='phone' name='phone' value={formik.values.phone}  />
+      {formik.errors.phone && formik.touched.phone ?<div className='alert alert-danger text-center  w-75'>{ formik.errors.phone }</div>:''}
     
       <label className='text-muted' htmlFor="password">Password</label>
       <div className="inputWithIcon position-relative">
-      <input type="password" id='password' className='form-control mb-4 mt-2 w-100' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='password' name='password' value={formik.values.password}  />
-      {formik.errors.password && formik.touched.password ?<div className='alert alert-danger text-center  w-100'>{ formik.errors.password }</div>:''}
+      <input type="password" id='password' className='form-control mb-4 mt-2 w-75' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='password' name='password' value={formik.values.password}  />
+      {formik.errors.password && formik.touched.password ?<div className='alert alert-danger text-center  w-75'>{ formik.errors.password }</div>:''}
       <i class="fa-solid fa-eye fs-5 position-absolute end-0 top-0 p-2 main-icon" onClick={showPassword} ></i>
       </div>
 
       <label className='text-muted' htmlFor="rePassword">Repassword</label>
       <div className="inputWithIcon position-relative">
-      <input type="password" id='rePassword' className='form-control mb-4 mt-2 w-100' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='Repassword' name='rePassword' value={formik.values.rePassword}  />
-      {formik.errors.rePassword && formik.touched.rePassword ?<div className='alert alert-danger text-center  w-100 '>{ formik.errors.rePassword }</div>:''}
+      <input type="password" id='rePassword' className='form-control mb-4 mt-2 w-75' onChange={formik.handleChange} onBlur={formik.handleBlur} placeholder='Repassword' name='rePassword' value={formik.values.rePassword}  />
+      {formik.errors.rePassword && formik.touched.rePassword ?<div className='alert alert-danger text-center  w-75 '>{ formik.errors.rePassword }</div>:''}
       <i class="fa-solid fa-eye fs-5 position-absolute end-0 top-0 p-2 main-icon" onClick={showRePassword} ></i>
       </div>
 
